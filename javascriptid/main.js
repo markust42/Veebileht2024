@@ -1,0 +1,1 @@
+alert("Tere tulemast meie veebilehele!!!");
