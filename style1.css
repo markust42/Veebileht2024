@@ -1,1 +1,15 @@
-h1 {color: green}
+h1 {color: 	#50514F; font-size: 60px; font-family: 'Stardom'; margin: 20px;}
+h2 {color: #b5ba72; font-size: 28px; font-family: 'Stardom'; margin: 20px;}
+p {color: #50514F; font-size: 18px; font-family: 'General Sans'; text-align: justify; margin: 20px;}
+img{box-shadow: 5px 5px 10px; margin: 20px; width: 400px;}
+
+a{
+    background-color: #B3BEA8; border: 2px solid #8FA581;
+    padding: 10px; border-radius: 5px;text-decoration: none; font-family: 'Stardom'; font-size: 13px;
+    color:#F7F7F7; font-weight: bold; margin: 5px; display: inline-block;}
+a:hover{background-color: #8FA581;}
+
+.nupud{text-align: center;}
+
+section {margin-bottom: 60px; padding: 30px; margin: 45px; background-color: #FFFCFF; border-radius: 10px;}
+body {background-color: #F7F7F7;}ss
