@@ -58,3 +58,33 @@ iframe {
     margin-left: 20px;
     margin: 20px;
 }
+
+.pildikarusell {box-shadow: 5px 5px 10px;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px; 
+    position: relative;
+    overflow: hidden;
+}
+
+.pilt {margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.pilt.aktiivne {display:block}
+
+.nupp{position: absolute;
+    top: 50%;
+    color: white;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.nupp.vasakule {left: 15px}
+
+.nupp.paremale {right: 15px}
