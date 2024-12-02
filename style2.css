@@ -1,10 +1,10 @@
-h1 {color: 	#077d5a;
+h1 {color: 	#d72626;
     font-size: 60px;
     font-family: 'Stardom';
     margin: 20px;
 }
 
-h2 {color: #b5ba72;
+h2 {color: #e4c92e;
     font-size: 28px;
     font-family: 'Stardom';
     margin: 20px;
@@ -23,8 +23,8 @@ img{box-shadow: 5px 5px 10px;
     margin-left: 20px;
 }
 
-a {background-color: #B3BEA8;
-    border: 2px solid #8FA581;
+a {background-color: #ff8080;
+    border: 2px solid #9c5f67;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -35,7 +35,7 @@ a {background-color: #B3BEA8;
     margin: 5px;
     display: inline-block;
 }
-a:hover{background-color: #8FA581;}
+a:hover{background-color: #e72f48;}
 
 .nupud{text-align: center;}
 
@@ -43,7 +43,7 @@ section {margin-bottom:
     60px;
     padding: 30px;
     margin: 45px;
-    background-color: #f3f4f1;
+    background-color: #fffbf7;
     border-radius: 10px;
 }
 
@@ -58,39 +58,6 @@ iframe {
     margin: 0;
     position: relative;
 }
-
-.pildikarusell {box-shadow: 5px 5px 10px;
-    margin: 0 auto;
-    width: 400px;
-    max-width: 600px;
-    height: 400px; 
-    position: relative;
-    overflow: hidden;
-    flex: 2;
-    margin-left: 20px;
-}
-
-.pilt {margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: none;
-}
-
-.pilt.aktiivne {display:block}
-
-.nupp{position: absolute;
-    top: 50%;
-    color: white;
-    border: none;
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-}
-
-.nupp.vasakule {left: 15px}
-
-.nupp.paremale {right: 15px}
 
 .karuselli-ja-mapsi-konteiner {
     display: flex;
@@ -113,7 +80,7 @@ iframe {
     font-size: 18px;
 }
 
-.mapsi-tekst {color:#b5ba72;
+.mapsi-tekst {color: #e4c92e;
     text-align: left;
     font-size: 14px;
     max-width: 600px;
