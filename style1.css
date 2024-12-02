@@ -1,4 +1,4 @@
-h1 {color: 	#077C58;
+h1 {color: 	#077d5a;
     font-size: 60px;
     font-family: 'Stardom';
     margin: 20px;
@@ -10,8 +10,7 @@ h2 {color: #b5ba72;
     margin: 20px;
 }
 
-p {color: #50514F;
-    font-size: 18px;
+p {
     font-family: 'General Sans';
     text-align: justify;
     margin: 20px;
@@ -44,7 +43,7 @@ section {margin-bottom:
     60px;
     padding: 30px;
     margin: 45px;
-    background-color: #FFFCFF;
+    background-color: #f3f4f1;
     border-radius: 10px;
 }
 
@@ -56,15 +55,18 @@ iframe {
     border: 0;
     float: right;
     margin-left: 20px;
-    margin: 20px;
+    margin: 0;
+    position: relative;
 }
 
 .pildikarusell {box-shadow: 5px 5px 10px;
     margin: 0 auto;
-    width: 600px;
+    width: 400px;
+    max-width: 600px;
     height: 400px; 
     position: relative;
     overflow: hidden;
+    flex: 2;
 }
 
 .pilt {margin: 0 auto;
@@ -88,3 +90,33 @@ iframe {
 .nupp.vasakule {left: 15px}
 
 .nupp.paremale {right: 15px}
+
+.karuselli-ja-mapsi-konteiner {
+    display: flex;
+    gap: 20px;
+}
+
+.mapsi-konteiner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.maps {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.kirjeldus {color: #2b2c2a;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.mapsi-tekst {color:#b5ba72;
+    text-align: left;
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: 50px;
+    line-height: 6px;
+    font-weight: 900;
+}

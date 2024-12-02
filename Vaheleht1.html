@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="et">
-    <head>
-        <link rel="stylesheet" href="style1.css">
-        <meta charset="utf-8">
-        <script src="javascriptid/main.js"></script>
-        <title>Vaheleht1</title>
-    </head>
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <meta charset="utf-8">
+    <script src="javascriptid/main.js"></script>
+    <title>Vaheleht1</title>
+</head>
 
-    <body>
-        <h1>Uhkemad söögikohad</h1>
-        <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&f[]=general-sans@200,700&f[]=bebas-neue@400&display=swap" rel="stylesheet">        
-        <section>
-            <h2>Kolm tilli</h2>
-            <div class="pildikarusell">
+<body>
+    <h1>Uhkemad söögikohad</h1>
+    <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&f[]=general-sans@200,700&f[]=bebas-neue@400&display=swap" rel="stylesheet">        
+    <section>
+        <h2>Kolm tilli</h2>
+        <div class="karuselli-ja-mapsi-konteiner">
+            <div class="pildikarusell" id="karusell1">
                 <img src="kolmtilli.jpg" class="pilt aktiivne"> 
                 <img src="kolmtilli3.jpg" class="pilt"> 
                 <img src="kolmtilli4.jpg" class="pilt">
@@ -20,101 +21,230 @@
                 <img src="kolmtilli6.jpg" class="pilt"> 
                 <img src="kolmtilli7.jpg" class="pilt">
                 <img src="kolmtilli9.jpg" class="pilt">
-                <button class="nupp vasakule" onclick="plusSlides(-1)">&#10094</button>
-                <button class="nupp paremale" onclick="plusSlides(+1)">&#10095</button>
+                <button class="nupp vasakule" onclick="plusSlides(-1, 'karusell1')">&#10094</button>
+                <button class="nupp paremale" onclick="plusSlides(+1, 'karusell1')">&#10095</button>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2092.364546823277!2d26.713973176465725!3d58.370388687407726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb374689b9852f%3A0x2634258382222eb7!2sKolm%20Tilli!5e0!3m2!1sen!2see!4v1733070501283!5m2!1sen!2see"
-            width="400"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            <p>blalblalal</p>
-        
-            <p>Kolm Tilli on Aparaaditehases paiknev tänavatoidurestoran. Restorani keskmeks on avatud köök - lisaks maitsvale söögipoolisele  on sul võimalus jälgida, kuidas sinu toitu reaalajas valmistatakse. Kohapealt ei puudu ka uhke kokteilibaar. Saad proovida näiteks Napoli stiilis pitsasid, Taiwani bao kukleid, Aasia hot dog’i, Ameerika Mac'n'cheese’i, kõrvitsa-miso jäätist ja palju-palju muud huvitavat. E-R 09:00–11:30 L-P 10:00–14:30 leiad põneva hommikusöögi menüü.</p>
-            <div class="nupud">
-                <a href="Kolm-Tilli.pdf" target="_blank">Menüü</a>
-                <a href="Kolm-Tilli-Brunch.pdf" target="_blank">Brunch menüü</a> 
+            <div class="mapsi-konteiner">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2092.364546823277!2d26.713973176465725!3d58.370388687407726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb374689b9852f%3A0x2634258382222eb7!2sKolm%20Tilli!5e0!3m2!1sen!2see!4v1733070501283!5m2!1sen!2see"
+                    width="400"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="mapsi-tekst">
+                    <p>E-N 9-23 / R 9-01 / L 10-01 / P 10-22</p>    
+                    <p>+372 5627 7753</p>
+                    <p>info@kolmtilli.ee</p>
+                </div>
             </div>
-        </section>
-        <section>
-            <h2>La Dolce Vita</h2> 
-            <img src="ladolcevita.jpg" class="styled-image">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8366.739636803488!2d26.704277750317083!3d58.381850622737005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36e6e01258f5%3A0x29995e2a55cf9b53!2sLa%20Dolce%20Vita!5e0!3m2!1sen!2see!4v1733080178893!5m2!1sen!2see"
-            width="400"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            <p>La Dolce Vita pakub sulle tõelist itaalia köögi toiduelamust. Menüüs leiad elaval tulel valminud pitsasid (ainukesed Tartus), värskeid pasta- ja mitmeid teisi autentseid itaalia roogasid.</p>
-            <div class="nupud">
-                <a href="http://ladolcevita.ee/meat-fish/" target="_blank">Menüü</a>
-            </div>
-        </section>
-        <section>
-            <h2>Kohvik Werner</h2>
-            <img src="werner.avif" class="styled-image">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.763760449073!2d26.71839927646648!3d58.38052088660455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36e12bc5b291%3A0x2c832117b36357b!2sCafe-restaurant%20Werner!5e0!3m2!1sen!2see!4v1733080359639!5m2!1sen!2see"
-            width="400"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            <p>mingi tekst</p>
-            <div class="nupud">
-                <a href="https://www.werner.ee/menuu" target="_blank">Menüü</a>
-                <a href="https://www.werner.ee/paevapakkumised" target="_blank">Päevapakkumised</a> 
-            </div>
-        </section>
-        <section>
-            <h2>Ihamaru Pizza & Käbliku Brewery Taproom</h2>
-            <img src="ihamarupizza.jpg" class="styled-image">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8367.683985946163!2d26.703141050289855!3d58.37786922391388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb3735475e4f0f%3A0x276cd956a78b1bc8!2sIhamaru%20Pizza%20%26%20K%C3%A4bliku%20Brewery%20Taproom!5e0!3m2!1sen!2see!4v1733080479130!5m2!1sen!2see"
-            width="400"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            <p>Alguses oli kaks sõpra, üks vana maja ja üks pitsaahi Põlvamaal Ihamarus, aga nüüd on kaks sõpra, kaks vana maja ja kaks pitsaahju, sest oleme jõudnud ka Tartusse Vallikraavi tänavale.
+        </div>
+        <div class="kirjeldus">
+            <p>Restoran Kolm Tilli on Tartu südames asuv populaarne söögikoht, mis pakub ainulaadset kulinaarset elamust ja mõnusat atmosfääri. Restoran on tuntud oma kaasaegse ja mitmekesise menüü poolest, mis ühendab erinevate köökide parimad maitsed. Kolm Tilli interjöör on hubane ja stiilne, luues õdusa õhkkonna nii sõpradega aja veetmiseks kui ka romantilisteks õhtusöökideks.
 
-                See lugu algab tegelikult nii, et metsamees ja põllumees tahtsid hakata vorsti ja konservi tegema, aga välja kukkus nagu alati ja siin me nüüd siis oleme. Ostsime 2019. aastal Ihamaru vana kõrtsihoone, aga saime sellega kaasa pitsaahju, mis tõmbas meid uude ja ääretult põnevasse maailma – pitsamaailma. Meie jaoks täiesti tume maa, aga õnneks on leiutatud internet ja raamatud ning katsetades ja proovides jõudsime 2020. aasta kevadel nii kaugele, et julgesime oma katsetusi ka teistele pakkuda. Päris uhke tunne oli, kui söödi ja kiideti. 
+                Restorani menüüst leiab nii klassikalisi kui ka uudseid roogasid, mis on valmistatud kõrge kvaliteediga värsketest koostisosadest. Nende pitsad on eriti hinnatud ja valmivad ehtsa puuküttega ahjus, mis annab neile erilise maitse ja tekstuuri. Lisaks pitsaile on menüüs ka rikkalik valik salateid, pastasid, mereande ja maitsvaid magustoite. Kolm Tilli eripäraks on ka nende loomingulised ja maitsvad kokteilid, mis täiendavad toiduelamust suurepäraselt.
                 
-                Teatavasti pidi nõnda olema, et kiida ullikest, siis ullike teeb ja eks me siis tegimegi. Tegime nii, et tõime Napolist Tartusse Stefano Ferrara pitsaahju, taigna valmistamiseks kasutame Itaaliast pärit Caputo jahu ja kastme teeme San Marzano tomatitest. Mozzarella on kohalik, pärit Viinamärdi talust. Pöörame suurt tähelepanu tooraine kvaliteedile ja kasutame lisaks Itaalia tootjatele ka palju Eestimaist ning seepärast iseloomustabki meid väga hästi lause Napoli stiilis pitsa Ihamaru moodi.
-                
-                Kohtumiseni Ihamarus!</p>
-            <div class="nupud">
-                <a href="https://ihamarupizza.ee/menuu/" target="_blank">Menüü</a>
+                Kolm Tilli ei ole ainult koht, kus nautida maitsvat toitu, vaid ka koht, kus toimuvad erinevad kultuuriüritused ja muusikaõhtud. Restoranis valitseb alati elav ja sõbralik õhkkond, mis teeb sellest ideaalse koha nii kohalikele elanikele kui ka turistidele. Teenindus on seal alati meeldiv ja professionaalne, tagades külastajatele meeldejääva kogemuse.</p>
+        </div>
+        <div class="nupud">
+            <a href="Kolm-Tilli.pdf" target="_blank">Menüü</a>
+            <a href="Kolm-Tilli-Brunch.pdf" target="_blank">Brunch menüü</a> 
+            <a href="https://sevensons.ee/kohad/kolm-tilli/" target="_blank">Koduleht</a> 
+        </div>
+    </section>
+    <section>
+        <h2>La Dolce Vita</h2>
+        <div class="karuselli-ja-mapsi-konteiner">
+            <div class="pildikarusell" id="karusell2">
+                <img src="ladolcevita.jpg" class="pilt aktiivne"> 
+                <img src="kolmtilli3.jpg" class="pilt"> 
+                <img src="kolmtilli4.jpg" class="pilt">
+                <img src="kolmtilli5.jpg" class="pilt"> 
+                <img src="kolmtilli6.jpg" class="pilt"> 
+                <img src="kolmtilli7.jpg" class="pilt">
+                <img src="kolmtilli9.jpg" class="pilt">
+                <button class="nupp vasakule" onclick="plusSlides(-1, 'karusell2')">&#10094</button>
+                <button class="nupp paremale" onclick="plusSlides(+1, 'karusell2')">&#10095</button>
             </div>
-        </section>
-        <section>
-            <h2>Restoran Hõlm</h2>
-            <img src="restoran_holm.jpg" class="styled-image">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.8222457457478!2d26.719148676466432!3d58.379534586682695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36e0c4ee94b1%3A0x6f3fb01e23b895a2!2sRestoran%20H%C3%B5lm!5e0!3m2!1sen!2see!4v1733080526880!5m2!1sen!2see"
-            width="400"
-            height="300"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-            <p>Hõlm on Tartu südalinnas asuv restoran, mis kuulub MICHELIN Guide 2024 soovitatud restoranide hulka ning tuntud gastronoomia teejuhi White Guide Nordic valikul Põhjamaade parimate restoranide hulka. Alates 2023. aastast võttis White Guide tegevuse Eestis üle oluliselt laiema rahvusvahelise haardega Falstaff. Restoran Hõlm on Falstaff Nordic Restaurant Guide Estonia 2024 ja 2025 hinnangul Tartu parim restoran.
+            <div class="mapsi-konteiner">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8366.739636803488!2d26.704277750317083!3d58.381850622737005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36e6e01258f5%3A0x29995e2a55cf9b53!2sLa%20Dolce%20Vita!5e0!3m2!1sen!2see!4v1733080178893!5m2!1sen!2see"
+                    width="400"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="mapsi-tekst">
+                    <p>E-N 11.30-23 / R-L 11.30-24 / P 12-23</p>    
+                    <p>+372 740 7545</p>
+                    <p>ladolcevita@ladolcevita.ee</p>
+                </div>
+            </div>
+        </div>
+        <div class="kirjeldus">
+            <p>Restoran La Dolce Vita on Tartu südames asuv elegantne ja autentne Itaalia söögikoht, mis pakub tõelist maitserännakut Itaalia köögi rikkalikku maailma. See restoran on tuntud oma originaalsete retseptide ja kõrgekvaliteediliste koostisosade poolest, mis toovad igasse rooga ehtsa Itaalia maitse.
 
-                See on koht, kus igaüks tunneb end oodatuna. Peakokk Sven Pärn poolt juhitav köök loob maitseelamusi, kus kõik detailid on hoolikalt läbi mõeldud, valmistatud ja serveeritud. 
+                La Dolce Vita interjöör on klassikaliselt stiilne ja romantiline, luues sooja ja kutsuva õhkkonna, mis sobib ideaalselt nii intiimseteks õhtusöökideks kui ka suuremateks seltskondlikeks koosviibimisteks. Restorani hubane atmosfäär ja Itaalia muusika taustal lisavad igale külastusele erilise võlu.
                 
-                Eriliseks muudab restorani avatud köök, mis loob külalise ja köögi vahel harmoonia ning annab kõigile võimaluse nautida võrratut kokakunsti. Restoran kasutab roogade valmistamisel põnevaid tehnikaid, mille juures on olulisel kohal puhas tooraine, kvaliteet ja lihtsus. Lisaks üllatab restoran retseptidega, mis pärinevad  Lydia Grünmann Holmi 1925.-26. aastal kirjutatud retseptikogust. Autori nimest on inspireeritud ka restorani nimi - Hõlm.
+                Menüü on rikkalik ja mitmekesine, pakkudes laia valikut autentseid Itaalia roogasid. Alates värsketest pastadest ja ahjus küpsetatud pitsadest kuni mereandide ja klassikaliste Itaalia magustoitudeni – iga roog on valmistatud kire ja hoolikusega. Eriti hinnatud on nende käsitsi valmistatud pastad ja värsked pitsad, millele annab unikaalse maitse nende spetsiaalne puuküttega ahi.
                 
-                Väikeseid külastajaid ootab mängutuba, kus saab lõbusalt aega veeta ja kus tegevust jagub nii suurematele kui ka väiksematele.</p>
-            <div class="nupud">
-                <a href="https://holmrestoran.ee/menuu/eelroad" target="_blank">Menüü</a>
+                La Dolce Vita veinikaart on muljetavaldav, pakkudes laia valikut parimaid Itaalia veine, mis täiendavad suurepäraselt restoranis pakutavaid roogasid. Professionaalne ja sõbralik teenindus teeb iga külastuse meeldivaks ja meeldejäävaks, tagades, et iga detail on hoolikalt läbi mõeldud.</p>
+        </div>
+        <div class="nupud">
+            <a href="http://ladolcevita.ee/meat-fish/" target="_blank">Menüü</a>
+            <a href="http://ladolcevita.ee/" target="_blank">Koduleht</a> 
+        </div>
+    </section>
+    <section>
+        <h2>Kohvik Werner</h2>
+        <div class="karuselli-ja-mapsi-konteiner">
+            <div class="pildikarusell" id="karusell3">
+                <img src="werner.avif" class="pilt aktiivne"> 
+                <img src="kolmtilli3.jpg" class="pilt"> 
+                <img src="kolmtilli4.jpg" class="pilt">
+                <img src="kolmtilli5.jpg" class="pilt"> 
+                <img src="kolmtilli6.jpg" class="pilt"> 
+                <img src="kolmtilli7.jpg" class="pilt">
+                <img src="kolmtilli9.jpg" class="pilt">
+                <button class="nupp vasakule" onclick="plusSlides(-1, 'karusell3')">&#10094</button>
+                <button class="nupp paremale" onclick="plusSlides(+1, 'karusell3')">&#10095</button>
             </div>
-        </section>
-        <script src="main.js"></script>
-    </body>
+            <div class="mapsi-konteiner">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.763760449073!2d26.71839927646648!3d58.38052088660455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36e12bc5b291%3A0x2c832117b36357b!2sCafe-restaurant%20Werner!5e0!3m2!1sen!2see!4v1733080359639!5m2!1sen!2see"
+                    width="400"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="mapsi-tekst">
+                    <p>E-R 7.30-21.30 / L 9-21.30 / P 9-21</p>    
+                    <p>+372 512 4328</p>
+                    <p>cafe@werner.ee</p>
+                </div>
+            </div>
+        </div>
+        <div class="kirjeldus">
+            <p>Kohvik Werner on Tartu ajalooline ja hinnatud kohvik, mis on tuntud oma rikkaliku ajalooga ning suurepärase kondiitritoodete ja kohvijookide valiku poolest. Asudes Tartu kesklinnas, on Wernerist saanud armastatud kohtumispaik nii kohalikele elanikele, üliõpilastele kui ka turistidele, kes otsivad mõnusat atmosfääri ja maitsvaid elamusi.
+
+                Werneri interjöör ühendab elegantselt ajaloolise hõngu ja kaasaegse mugavuse, luues õdusa ja meeldiva keskkonna, kus on hea aega veeta nii hommikusöögil, lõunal kui ka pärastlõunastel kohvipausidel. Kohviku avarate akende kaudu avaneb kaunis vaade Tartu vanalinnale, lisades külastusele erilist võlu.
+                
+                Kohviku menüü on mitmekesine ja hoolikalt koostatud, pakkudes laia valikut maitsvaid roogasid ja hõrgutisi. Werneri kondiitritooted, nagu käsitsi valmistatud koogid, tordid ja saiakesed, on eriti populaarsed ja armastatud. Nende kohvijoogid on valmistatud kvaliteetsest kohvist ja pakuvad suurepärast maitseelamust, olenemata sellest, kas eelistate klassikalist espresso't, kreemjat cappuccino't või mõnda spetsiaalset kohvikokteili.
+                
+                Werneri brunch ja lõunapakkumised on samuti väga hinnatud, pakkudes tervislikke ja maitsvaid toite, mis sobivad igale maitsele. Lisaks pakutakse ka rikkalikku valikut salateid, suppe ja pearoogasid, mis valmistatakse alati värsketest ja kvaliteetsetest koostisosadest.
+                
+                Kohvik Werner ei ole ainult koht, kus nautida suurepärast toitu ja jooke, vaid ka kultuuriline kohtumispaik, kus toimuvad erinevad üritused ja näitused. Kohviku sõbralik ja professionaalne teenindus tagab, et iga külastus on meeldiv ja meeldejääv.</p>
+        </div>
+        <div class="nupud">
+            <a href="https://www.werner.ee/menuu" target="_blank">Menüü</a>
+            <a href="https://www.werner.ee/paevapakkumised" target="_blank">Päevapakkumised</a> 
+            <a href="https://www.werner.ee/" target="_blank">Koduleht</a> 
+        </div>
+    </section>
+    <section>
+        <h2>Ihamaru Pizza & Käbliku Brewery Taproom</h2>
+        <div class="karuselli-ja-mapsi-konteiner">
+            <div class="pildikarusell" id="karusell4">
+                <img src="ihamarupizza.jpg" class="pilt aktiivne"> 
+                <img src="kolmtilli3.jpg" class="pilt"> 
+                <img src="kolmtilli4.jpg" class="pilt">
+                <img src="kolmtilli5.jpg" class="pilt"> 
+                <img src="kolmtilli6.jpg" class="pilt"> 
+                <img src="kolmtilli7.jpg" class="pilt">
+                <img src="kolmtilli9.jpg" class="pilt">
+                <button class="nupp vasakule" onclick="plusSlides(-1, 'karusell4')">&#10094</button>
+                <button class="nupp paremale" onclick="plusSlides(+1, 'karusell4')">&#10095</button>
+            </div>
+            <div class="mapsi-konteiner">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8367.683985946163!2d26.703141050289855!3d58.37786922391388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb3735475e4f0f%3A0x276cd956a78b1bc8!2sIhamaru%20Pizza%20%26%20K%C3%A4bliku%20Brewery%20Taproom!5e0!3m2!1sen!2see!4v1733080479130!5m2!1sen!2see"
+                    width="400"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="mapsi-tekst">
+                    <p>E-N 16-23 / R-P 12-23</p>    
+                    <p>+372 512 4328</p>
+                    <p>tere@ihamarupizza.ee</p>
+                </div>
+            </div>
+        </div>
+        <div class="kirjeldus">
+            <p>Ihamaru Pizza on Tartu lähedal asuv kodune ja armastatud pitsakoht, mis on tuntud oma ehtsa ja maitsva Itaalia stiilis pitsa poolest. See peresõbralik restoran pakub hubast ja sõbralikku atmosfääri, mis sobib suurepäraselt nii peredele kui ka sõprade seltskondadele, kes soovivad nautida head toitu ja meeldivat ajaveetmist.
+
+                Ihamaru Pizza interjöör on lihtne, kuid soe ja kutsuv, luues õdusa keskkonna, kus on hea aega veeta. Restorani avarate akende kaudu saab nautida kaunist vaadet ümbritsevale loodusele, lisades külastusele erilist rahu ja võlu. Suveperioodil on võimalik einestada ka õues, nautides värsket õhku ja looduse lähedust.
+                
+                Menüü keskmes on loomulikult pitsad, mis valmivad ehtsa puuküttega ahjus, andes neile erilise maitse ja tekstuuri. Valikus on nii klassikalisi kui ka uudseid pitsasid, mis rahuldavad igat maitse-eelistust. Lisaks pitsadele pakutakse ka erinevaid salateid, suupisteid ja magustoite, mis on valmistatud värsketest ja kvaliteetsetest koostisosadest.
+                
+                Ihamaru Pizza eripäraks on nende pühendumus autentsetele maitsetele ja käsitööle. Kõik pitsad valmistatakse kohapeal ja tellimuse alusel, tagades värskuse ja parima maitseelamuse. Nende pitsa taigen on erilise hoolega valmistatud, et saavutada täiuslik tasakaal krõbeda ja õhulise vahel. Lisaks on võimalik valida erinevate kattematerjalide vahel, mis annavad võimaluse kombineerida just enda lemmikmaitseid.
+                
+                Kohaliku kogukonna seas armastatud Ihamaru Pizza pakub ka võimalust tellida toitu kaasa või nautida seda mõnes lähedal asuvas pargis või looduses. Sõbralik ja lahke teenindus teeb iga külastuse meeldivaks ja meeldejäävaks, olles alati valmis aitama ja soovitama parimaid valikuid.</p>
+        </div>
+        <div class="nupud">
+            <a href="https://ihamarupizza.ee/menuu/" target="_blank">Menüü</a>
+            <a href="https://ihamarupizza.ee/" target="_blank">Koduleht</a> 
+        </div>
+    </section>
+    <section>
+        <h2>Restoran Hõlm</h2>
+        <div class="karuselli-ja-mapsi-konteiner">
+            <div class="pildikarusell" id="karusell5">
+                <img src="https://eeblog.dinnerbooking.com/wp-content/uploads/2021/04/Ho%CC%83lm_terrass2-1024x576.jpg" class="pilt aktiivne"> 
+                <img src="https://media.voog.com/0000/0039/1574/photos/restoran_holm_huge.jpg" class="pilt"> 
+                <img src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/408094202_18298672639124317_1007812180468847029_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=z7ImQvUBBfsQ7kNvgGOhsjW&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=Af1j8Fjj6ZYRyAcZ94yqjzv&oh=00_AYDySJ82lU0M0846vwPYUbdGNx_i1qr06nhFFdG_NCK70Q&oe=6753D30A" class="pilt">
+                <img src="https://media.voog.com/0000/0039/1574/photos/IMGL4914_websize_fotograaf.lauri.laan.jpg" class="pilt"> 
+                <img src="https://scontent-hel3-1.xx.fbcdn.net/v/t1.6435-9/186468868_1743153172558906_4638298488151747349_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=hod6S63xDioQ7kNvgGnVIO6&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=ALf_GyN1dzwiqNPghSTL-t_&oh=00_AYAySsipivJ0W6kXFW8cRq_jSai0_Zu6hXgkkQgHMvlMQg&oe=6775832B" class="pilt"> 
+                <img src="https://static.visitestonia.com/images/3804748/600_400_false_false_4b2b5a374d16dcc42fb551b6bf67ac94.jpg" class="pilt">
+                <img src="https://media.voog.com/0000/0039/1574/photos/IMGM9524_websize_fotograaf.lauri_.laan__large.jpg" class="pilt">
+                <button class="nupp vasakule" onclick="plusSlides(-1, 'karusell5')">&#10094</button>
+                <button class="nupp paremale" onclick="plusSlides(+1, 'karusell5')">&#10095</button>
+            </div>
+            <div class="mapsi-konteiner">
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.8222457457478!2d26.719148676466432!3d58.379534586682695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eb36e0c4ee94b1%3A0x6f3fb01e23b895a2!2sRestoran%20H%C3%B5lm!5e0!3m2!1sen!2see!4v1733080526880!5m2!1sen!2see"
+                    width="400"
+                    height="300"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="mapsi-tekst">
+                    <p>E-R 18-23 / L 17-23</p>    
+                    <p>+372 5750 1130</p>
+                    <p>info@holmrestoran.ee</p>
+                </div>
+            </div>
+        </div>
+        <div class="kirjeldus">
+            <p>Restoran Hõlm on Tartu kesklinnas asuv elegantne ja kõrgelt hinnatud söögikoht, mis pakub unustamatut kulinaarset elamust ja luksuslikku atmosfääri. Restoran on osa Lydia hotellist, mis toob esile ajaloohõngulise elegantsi ja kaasaegse mugavuse täiusliku kombinatsiooni.
+
+                Hõlmi interjöör on kaasaegne ja stiilne, luues õdusa ja rafineeritud õhkkonna, kus on meeldiv nautida nii romantilisi õhtusööke, ärilõunaid kui ka erilisi sündmusi. Restorani avarad aknad ja hoolikalt valitud sisekujundusdetailid annavad ruumile valgusküllase ja avara tunde, lisades igale einestusele elegantsi ja pidulikkust.
+                
+                Restorani menüü on inspireeritud Euroopa klassikalisest köögist, kuid seda on täiendatud kohalike ja hooajaliste koostisosadega, luues innovatiivseid ja maitseelamusterohkeid roogasid. Hõlmi peakokk ja tema meeskond panevad suurt rõhku maitsete tasakaalule ja esteetilisele serveerimisele, pakkudes iga toidukorra puhul tõelist kunstiteost. Menüü vaheldub hooajaliselt, et pakkuda alati värskeid ja põnevaid maitseid.
+                
+                Eriliselt hinnatud on Hõlmi degustatsioonimenüü, mis võimaldab külalistel nautida mitmekäigulist õhtusööki koos hoolikalt valitud veinidega. Restorani rikkalik veinikaart pakub laia valikut parimaid veine üle maailma, mis täiendavad suurepäraselt pakutavaid roogasid.
+                
+                Teenindus Hõlmis on alati professionaalne ja diskreetne, pakkudes igale külalisele personaalset ja hoolivat tähelepanu. Restorani meeskond on pühendunud iga detaili täiuslikkusele, tagades, et iga külastus on eriline ja meeldejääv.</p>
+        </div>
+        <div class="nupud">
+            <a href="https://holmrestoran.ee/menuu/eelroad" target="_blank">Menüü</a>
+            <a href="https://holmrestoran.ee" target="_blank">Koduleht</a>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
