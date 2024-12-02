@@ -4,7 +4,7 @@ h1 {color: 	#d72626;
     margin: 20px;
 }
 
-h2 {color: #e4c92e;
+h2 {color: #f0c362;
     font-size: 28px;
     font-family: 'Stardom';
     margin: 20px;
@@ -47,7 +47,7 @@ section {margin-bottom:
     border-radius: 10px;
 }
 
-body {background-color: #F7F7F7;}
+body {background-color: #f0c362;}
 
 iframe {
     width: 400px;
@@ -80,7 +80,7 @@ iframe {
     font-size: 18px;
 }
 
-.mapsi-tekst {color: #e4c92e;
+.mapsi-tekst {color: #f0c362;
     text-align: left;
     font-size: 14px;
     max-width: 600px;
