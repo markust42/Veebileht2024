@@ -55,3 +55,17 @@ p {
     max-width: 600px;
     font-size: 16px;
 }
+
+a {background-color: #B3BEA8;
+    border: 2px solid #8FA581;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family:'Stardom';
+    font-size: 13px;
+    color:#F7F7F7;
+    font-weight: bold;
+    margin: 5px;
+    display: inline-block;
+}
+a:hover{background-color: #8FA581;}
