@@ -1,35 +1,39 @@
-/* Üldine paigutus */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'General Sans'; /* General Sans jääb samaks */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #F7F7F7; /* Taustavärv muudetud */
+    color: #50514F; /* Teksti värv muudetud */
+    text-align: center; /* Keskjoondus kogu sisule */
 }
 
 header {
-    background-color: #333;
+    background-color: #077C58; /* Uus taustavärv */
     color: white;
     text-align: center;
     padding: 50px 0;
 }
 
 h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
+    color: #b5ba72; /* Uus värv */
+    font-size: 60px; /* Suurus */
+    font-family: 'Stardom'; /* Uus font */
+    margin: 20px 0;
 }
 
 p {
-    font-size: 1.2rem;
-    margin-top: 0;
+    color: #2c3028; /* Teksti värv */
+    font-size: 18px; /* Suurus */
+    font-family: 'General Sans'; /* Sama font */
+    text-align: center; /* Joondatud keskele */
+    margin: 20px auto;
 }
 
-/* Kategooriad */
 .categories {
     display: flex;
     justify-content: space-around;
     padding: 40px 20px;
-    background-color: #fff;
+    background-color: #FFFCFF; /* Uus taustavärv */
 }
 
 .category {
@@ -42,47 +46,26 @@ p {
 
 .category h3 {
     font-size: 1.5rem;
+    color: #8FA581; /* Lisatud uus värv */
+    font-family: 'Stardom';
 }
 
-/* Kontaktivorm */
-.contact {
-    background-color: #333;
-    color: white;
-    padding: 40px;
+.mapsi-tekst {
     text-align: center;
+    max-width: 600px;
+    font-size: 16px;
 }
 
-.contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.contact input {
+a {background-color: #B3BEA8;
+    border: 2px solid #8FA581;
     padding: 10px;
-    margin: 10px 0;
-    width: 80%;
-    max-width: 400px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family:'Stardom';
+    font-size: 13px;
+    color:#F7F7F7;
+    font-weight: bold;
+    margin: 5px;
+    display: inline-block;
 }
-
-.contact button {
-    padding: 10px 20px;
-    background-color: #5cb85c;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.contact button:hover {
-    background-color: #4cae4c;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
+a:hover{background-color: #8FA581;}
