@@ -1,10 +1,10 @@
-h1 {color: 	#d72626;
+h1 {color: 	#196e2a;
     font-size: 60px;
     font-family: 'Stardom';
     margin: 20px;
 }
 
-h2 {color: #f0c362;
+h2 {color: #b5ba72;
     font-size: 28px;
     font-family: 'Stardom';
     margin: 20px;
@@ -23,8 +23,8 @@ img{box-shadow: 5px 5px 10px;
     margin-left: 20px;
 }
 
-a {background-color: #ff8080;
-    border: 2px solid #9c5f67;
+a {background-color: #B3BEA8;
+    border: 2px solid #8FA581;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -35,7 +35,7 @@ a {background-color: #ff8080;
     margin: 5px;
     display: inline-block;
 }
-a:hover{background-color: #e72f48;}
+a:hover{background-color: #8FA581;}
 
 .nupud{text-align: center;}
 
@@ -43,11 +43,11 @@ section {margin-bottom:
     60px;
     padding: 30px;
     margin: 45px;
-    background-color: #fffbf7;
+    background-color: #f3f4f1;
     border-radius: 10px;
 }
 
-body {background-color: #f0c362;}
+body {background-color: #c3c5a0;}
 
 iframe {
     width: 400px;
@@ -59,7 +59,7 @@ iframe {
     position: relative;
 }
 
-.karuselli-ja-mapsi-konteiner {
+.pildi-ja-mapsi-konteiner {
     display: flex;
     gap: 20px;
 }
@@ -80,7 +80,7 @@ iframe {
     font-size: 18px;
 }
 
-.mapsi-tekst {color: #f0c362;
+.mapsi-tekst {color: #b5ba72;
     text-align: left;
     font-size: 14px;
     max-width: 600px;

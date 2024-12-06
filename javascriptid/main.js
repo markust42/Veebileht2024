@@ -23,3 +23,6 @@ function showSlides(n, carouselId) {
   }
   slides[window[carouselId].slideIndex - 1].style.display = "block";
 }
+
+// Allikas: https://www.w3schools.com/howto/howto_js_slideshow.asp 
+// Kasutasime ka ChatGPT abi, et koodi natuke muuta

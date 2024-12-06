@@ -1,42 +1,44 @@
 body {
-    font-family: 'General Sans'; /* General Sans jääb samaks */
+    font-family: 'General Sans';
     margin: 0;
     padding: 0;
-    background-color: #F7F7F7; /* Taustavärv muudetud */
-    color: #50514F; /* Teksti värv muudetud */
-    text-align: center; /* Keskjoondus kogu sisule */
+    background-color: #F7F7F7;
+    color: #50514F;
+    text-align: center;
 }
 
 header {
-    background-color: #077C58; /* Uus taustavärv */
+    background-color: #c3c5a0;
     color: white;
     text-align: center;
     padding: 50px 0;
 }
 
 h1 {
-    color: #b5ba72; /* Uus värv */
-    font-size: 60px; /* Suurus */
-    font-family: 'Stardom'; /* Uus font */
+    color: #196e2a;
+    font-size: 60px;
+    font-family: 'Stardom';
     margin: 20px 0;
 }
 
+h2{color: #196e2a}
+
 p {
-    color: #2c3028; /* Teksti värv */
-    font-size: 18px; /* Suurus */
-    font-family: 'General Sans'; /* Sama font */
-    text-align: center; /* Joondatud keskele */
+    color: #2c3028;
+    font-size: 18px;
+    font-family: 'General Sans';
+    text-align: center;
     margin: 20px auto;
 }
 
-.categories {
+.kategooriad {
     display: flex;
     justify-content: space-around;
     padding: 40px 20px;
-    background-color: #FFFCFF; /* Uus taustavärv */
+    background-color: #FFFCFF;
 }
 
-.category {
+.kategooria {
     background-color: #f8f8f8;
     padding: 20px;
     border-radius: 10px;
@@ -44,9 +46,9 @@ p {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.category h3 {
+.kategooria h3 {
     font-size: 1.5rem;
-    color: #8FA581; /* Lisatud uus värv */
+    color: #8FA581;
     font-family: 'Stardom';
 }
 
